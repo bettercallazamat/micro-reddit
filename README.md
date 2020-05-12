@@ -1,37 +1,29 @@
-# micro-reddit
-> This project puts your knowledge of active record, models, and associations to the tests. You will build an application similar to Reddit (called Micro-Reddit) where a user can create a post and add comments to it.
+# Micro Reddit
 
-## Link to telegram bot
-[Check it out!](https://t.me/microverse_pr_bot)
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
-## Build with
-- Ruby
-- HTTParty
-- telegram/bot lib
-- GitHub API
-- RSpec
+The objective of this project is to be able to appropriately model the necessary 
+data of a reddit like application.
 
-## Screenshot of bot
-![screenshot](./screenshot.png)
+## Built With
 
-## Getting started
-In order to use this Telegram Bot:
+- Ruby on Rails 6.0.2.1,
+- Ruby 2.6.5,
+- Ruby Mine,
+- Visual Studio Code
+- SQLite 3
 
-1. Open telegram find @microverse_pr_bot
-2. Start a bot, it will ask you to use /auth command in which you need to provide your github username
-3. Check if bot has saved your github username you can run /username command
-4. Checks will be done automatically every 10 minutes, but if you want to check for updates manually use /check command. 
-5. If you want to track PR from repository of your coding parter use /add command and provide link to pull request.
+# Getting a Copy and Contributing
+This project is open for anyone who wants to clone it and create their version. If you just want the files and don't want to make further changes, follow the steps below to get a copy in your computer:
 
-## Future plans
-- Make bot check updates based on time of comments creating rather than checking numbers of comments(feedbacks)
+1 - Install git in your machine. Follow [this guide](https://www.theodinproject.com/courses/web-development-101/lessons/setting-up-git) by The Odin Project if you haven't done so.
 
-## Commands available
-1. /start - Starting a bot
-2. /stop - Stopping a bot
-3. /auth - Saves your GitHub username
-4. /username - Give you username that you have provided to bot
-6. /check - Checks if there are new feedbacks on your PRs
+2 - Open your terminal, select the folder where you want to store this project and paste the following code
+
+``git clone git@github.com:bettercallazamat/micro-reddit.git``
 
 ## Authors
 
@@ -40,6 +32,14 @@ In order to use this Telegram Bot:
 - Github: [@bettercallazamat](https://github.com/bettercallazamat)
 - Twitter: [@azamat_nuriddin](https://twitter.com/azamat_nuriddin)
 - Linkedin: [Azamat Nuriddinov](https://www.linkedin.com/in/azamat-nuriddinov-57579868)
+
+
+👤**Samuel Kiroko N**
+
+- Twitter: [@kirokonjenga](https://twitter.com/kirokonjenga)
+- LinkedIn: [@samuel-kiroko](https://www.linkedin.com/in/samuel-kiroko/)
+- Personal Website: [kiroko.tech](https://www.kiroko.tech/)
+
 
 ## 🤝 Contributing
 
@@ -50,3 +50,12 @@ Feel free to submit a new suggestion > [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+[contributors-shield]: https://img.shields.io/github/contributors/bettercallazamat/micro-reddit.svg?style=flat-square
+[contributors-url]: https://github.com/bettercallazamat/micro-reddit/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/bettercallazamat/micro-reddit.svg?style=flat-square
+[forks-url]: https://github.com/bettercallazamat/micro-reddit/network/members
+[stars-shield]: https://img.shields.io/github/stars/bettercallazamat/micro-reddit.svg?style=flat-square
+[stars-url]: https://github.com/bettercallazamat/micro-reddit/stargazers
+[issues-shield]: https://img.shields.io/github/issues/bettercallazamat/micro-reddit.svg?style=flat-square
+[issues-url]: https://github.com/bettercallazamat/micro-reddit/issues
