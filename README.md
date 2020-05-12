@@ -1,24 +1,52 @@
-# README
+# micro-reddit
+> This project puts your knowledge of active record, models, and associations to the tests. You will build an application similar to Reddit (called Micro-Reddit) where a user can create a post and add comments to it.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Link to telegram bot
+[Check it out!](https://t.me/microverse_pr_bot)
 
-Things you may want to cover:
+## Build with
+- Ruby
+- HTTParty
+- telegram/bot lib
+- GitHub API
+- RSpec
 
-* Ruby version
+## Screenshot of bot
+![screenshot](./screenshot.png)
 
-* System dependencies
+## Getting started
+In order to use this Telegram Bot:
 
-* Configuration
+1. Open telegram find @microverse_pr_bot
+2. Start a bot, it will ask you to use /auth command in which you need to provide your github username
+3. Check if bot has saved your github username you can run /username command
+4. Checks will be done automatically every 10 minutes, but if you want to check for updates manually use /check command. 
+5. If you want to track PR from repository of your coding parter use /add command and provide link to pull request.
 
-* Database creation
+## Future plans
+- Make bot check updates based on time of comments creating rather than checking numbers of comments(feedbacks)
 
-* Database initialization
+## Commands available
+1. /start - Starting a bot
+2. /stop - Stopping a bot
+3. /auth - Saves your GitHub username
+4. /username - Give you username that you have provided to bot
+6. /check - Checks if there are new feedbacks on your PRs
 
-* How to run the test suite
+## Authors
 
-* Services (job queues, cache servers, search engines, etc.)
+👤 **Azamat Nuriddinov**
 
-* Deployment instructions
+- Github: [@bettercallazamat](https://github.com/bettercallazamat)
+- Twitter: [@azamat_nuriddin](https://twitter.com/azamat_nuriddin)
+- Linkedin: [Azamat Nuriddinov](https://www.linkedin.com/in/azamat-nuriddinov-57579868)
 
-* ...
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to submit a new suggestion > [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
