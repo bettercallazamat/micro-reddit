@@ -40,6 +40,8 @@ Style/DocumentationMethod:
   Enabled: false
 Style/MissingElse:
   Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
 
 
 Layout/HashAlignment:
